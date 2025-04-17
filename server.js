@@ -5,6 +5,7 @@ const dotenv=require('dotenv');
 dotenv.config();
 const app=express();
 
+//To connect the port
 const PORT=process.env.PORT || 3000;
 
 const database=mysql2.createConnection({
